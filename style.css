@@ -1,0 +1,115 @@
+/** header section**/
+.header{
+	background-image:url(img/portfolio-3.jpg);
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	background-position:fixed;
+}
+.head-linear{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 144, 0, 0.9);
+}
+.head-img{
+	position:absolute;
+	z-index:997;
+}
+.head-img img{
+	border-radius:50%;
+	height:25%;
+	width:30%;
+	position:relative;
+	top:30vh;
+	left:50%;
+	
+}
+.head-content{
+	position:absolute;
+	z-index:997;
+	left:35%;
+	top:65%;
+	color:white;
+}
+.head-content h1{
+	font-size:2.8rem;
+	font-family: 'Dancing Script', cursive;
+	font-weight:600;
+	transform:rotate(350deg);
+}
+.head-content p{
+	margin:2rem 5.6rem;
+	font-weight:bold;
+}
+.head-icon iconify-icon{
+	font-size:2rem;
+	padding:10px;
+	margin-left:2rem ;
+}
+/** about section**/
+.about{
+	background:linear-gradient(#cce6ff,#ffe6ff);
+}
+.about-content p{
+	text-indent:2.6rem;
+	text-align:justify;
+}
+.about-content span{
+	font-weight:800;
+}
+.about-content h3{
+	font-size:1.5rem;
+	color:#a6a6a6;
+}
+.about-content h1{
+	font-family: 'Raleway', sans-serif;
+	font-size:2rem;
+}
+.about-skill{
+	text-align:center;
+}
+.about-skill iconify-icon{
+	font-size:2.3rem;
+}
+.about-box1 iconify-icon{
+	color: #2c98f0;
+}
+.about-box1{
+	border-bottom:2px solid #2c98f0;
+}
+.about-box2 iconify-icon{
+	color: #e600ac;
+}
+.about-box2{
+	border-bottom:2px solid #e600ac;
+}
+.about-box3 iconify-icon{
+	color: #f9bf3f;
+}
+.about-box3{
+	border-bottom:2px solid #f9bf3f;
+}
+.about-box4 iconify-icon{
+	color: #a84cb8;
+}
+.about-box4{
+	border-bottom:2px solid #a84cb8;
+}
+.about-box5 iconify-icon{
+	color:#ec5453;
+}
+.about-box5{
+	border-bottom:2px solid #ec5453;
+}
+.about-box6 iconify-icon{
+	color:  #1aff66;
+}
+.about-box6{
+	border-bottom:2px solid  #1aff66;
+}
+.skill{
+	background:linear-gradient(#cce6ff,#ffe6ff);
+}
