@@ -113,3 +113,18 @@
 .skill{
 	background:linear-gradient(#cce6ff,#ffe6ff);
 }
+/** resume section**/
+.resume{
+	background:#ffe6ff;
+}
+.resume-content{
+	background:linear-gradient(#cce6ff,#ffe6ff);
+}
+.resume-content h4{
+	background-color:#ffcc66;
+	color:white;
+	border-radius: 50px 10px;
+	padding:8px 20px;
+	width:40%;
+	font-size:1rem;
+}
